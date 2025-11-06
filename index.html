@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBOOK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+    <h1>MyBOOK</h1>
+</div>
+
+<div class="container">
+    <div class="book-container">
+        <h2>Beyond the Shade</h2>
+        <h3>MONICA</h3>
+        <p>
+            Anika, often mocked for her dark skin, learns to embrace herself with confidence and humor instead of pain. Supported by her loving family, she turns criticism into laughter and inspires others to love their own skin. Her strength and positivity change how people see beauty. The story reminds every “Anika” that the color of the heart matters more than the color of the skin.
+            <br><br>
+            Thanks for this 10 mins friend,<br>
+            See u with the next one ❤❤❤ 
+            <br><br>
+            BY Monica 💖.
+        </p>
+        <button onclick="deletebok(event)">Delete</button>
+    </div>
+</div>
+
+<div class="popup-overlay"></div>
+
+<div class="popup-box">
+    <h2>Add Book</h2>
+    <form>
+        <input type="text" placeholder="Book Title" id="book-title" required>
+        <input type="text" placeholder="Book Author" id="book-author-input" required>
+        <textarea id="book-description-input" placeholder="Short Description" required></textarea>
+        <button id="add-pop-up">Add</button>
+        <button id="cancel-pop-up">Cancel</button>
+    </form>
+</div>
+
+<button class="add-button">+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
